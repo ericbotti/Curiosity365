@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="kb7-uU-boS">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationLikes" automaticallyAdjustsScrollViewInsets="NO" id="j1I-bz-7Mj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="love" id="zNp-ly-WNW">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IDx-lO-xVa">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tiO-Cp-FVQ" kind="relationship" relationship="rootViewController" id="vJg-yv-UoH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyb-QD-FML" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656.52173913043487" y="-319.41964285714283"/>
+        </scene>
+        <!--Likes-->
+        <scene sceneID="haj-Yz-LYm">
+            <objects>
+                <viewController id="tiO-Cp-FVQ" customClass="LikesViewController" customModule="Curiosity365" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zhl-ql-ujr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="t09-1I-TkY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Likes" id="CUa-rh-srS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HB2-r1-XAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="434"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="love" width="30" height="30"/>
+    </resources>
+</document>

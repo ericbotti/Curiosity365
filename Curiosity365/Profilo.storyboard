@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Impostazioni-->
+        <scene sceneID="LMK-NB-AbR">
+            <objects>
+                <viewController id="qbf-qO-eFv" customClass="ImpostazioniViewController" customModule="Curiosity365" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nxp-ym-kH0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="B82-sw-JKB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Impostazioni" id="lK4-1R-fMN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rWa-QT-S1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="1723"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BYY-2P-xfb">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationProfilo" automaticallyAdjustsScrollViewInsets="NO" id="MB0-QI-2QF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="gear" id="v6o-P0-FM4">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uh5-IH-8mG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qbf-qO-eFv" kind="relationship" relationship="rootViewController" id="cdz-uQ-6RE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Noc-As-2Ut" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656.52173913043487" y="997.76785714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gear" width="30" height="30"/>
+    </resources>
+</document>

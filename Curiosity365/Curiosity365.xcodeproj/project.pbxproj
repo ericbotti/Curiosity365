@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255A3E5144B09B9E9EBF7E2D /* Pods_Curiosity365.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1AB2F0828AEFCEE3E6086D /* Pods_Curiosity365.framework */; };
+		CB0CBF8123290FE7001E6ECE /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0CBF8023290FE7001E6ECE /* TabBar.storyboard */; };
+		CB0CBF83232942E8001E6ECE /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF82232942E8001E6ECE /* LikesViewController.swift */; };
+		CB0CBF8523294315001E6ECE /* CalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF8423294315001E6ECE /* CalendarioViewController.swift */; };
+		CB0CBF8723294330001E6ECE /* ImpostazioniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0CBF8623294330001E6ECE /* ImpostazioniViewController.swift */; };
+		CB268EC7242AA63B009B3689 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB268EC6242AA63B009B3689 /* Home.storyboard */; };
+		CB268EC9242AA7FC009B3689 /* Likes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB268EC8242AA7FC009B3689 /* Likes.storyboard */; };
+		CB268ECB242AA8BE009B3689 /* Calendario.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB268ECA242AA8BE009B3689 /* Calendario.storyboard */; };
+		CB268ECD242AAA5C009B3689 /* Profilo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB268ECC242AAA5C009B3689 /* Profilo.storyboard */; };
+		CB2D6B9B23210EC100883C38 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2D6B9A23210EC100883C38 /* Start.storyboard */; };
+		CB2D6B9D23210F7000883C38 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D6B9C23210F7000883C38 /* SignInViewController.swift */; };
+		CB2D6B9F2321297400883C38 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D6B9E2321297400883C38 /* SignUpViewController.swift */; };
+		CB403DC222E864BA00187669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB403DC122E864BA00187669 /* AppDelegate.swift */; };
+		CB403DC422E864BA00187669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB403DC322E864BA00187669 /* ViewController.swift */; };
+		CB403DC922E864BB00187669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB403DC822E864BB00187669 /* Assets.xcassets */; };
+		CB403DCC22E864BB00187669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB403DCA22E864BB00187669 /* LaunchScreen.storyboard */; };
+		CB403DD422E8A37F00187669 /* UiViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB403DD322E8A37F00187669 /* UiViewGradient.swift */; };
+		CB403DD622E8A6B500187669 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB403DD522E8A6B500187669 /* Colors.swift */; };
+		CB89CCC72405B50A00A752C0 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB89CCC62405B50A00A752C0 /* NavigationController.swift */; };
+		CBE9D0362433B6070005A708 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CBE9D0352433B6070005A708 /* GoogleService-Info.plist */; };
+		CBEEF502231D221C00B5B43B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF501231D221C00B5B43B /* HomeViewController.swift */; };
+		CBEEF504231FB64200B5B43B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEEF503231FB64200B5B43B /* TabBarController.swift */; };
+		CBF2235523DDCBF10031EAB0 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2235423DDCBF10031EAB0 /* BounceButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D1AB2F0828AEFCEE3E6086D /* Pods_Curiosity365.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Curiosity365.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B504981DE7F0B236DDD004C7 /* Pods-Curiosity365.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curiosity365.release.xcconfig"; path = "Target Support Files/Pods-Curiosity365/Pods-Curiosity365.release.xcconfig"; sourceTree = "<group>"; };
+		CB0CBF8023290FE7001E6ECE /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		CB0CBF82232942E8001E6ECE /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		CB0CBF8423294315001E6ECE /* CalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioViewController.swift; sourceTree = "<group>"; };
+		CB0CBF8623294330001E6ECE /* ImpostazioniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpostazioniViewController.swift; sourceTree = "<group>"; };
+		CB268EC6242AA63B009B3689 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CB268EC8242AA7FC009B3689 /* Likes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Likes.storyboard; sourceTree = "<group>"; };
+		CB268ECA242AA8BE009B3689 /* Calendario.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calendario.storyboard; sourceTree = "<group>"; };
+		CB268ECC242AAA5C009B3689 /* Profilo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profilo.storyboard; sourceTree = "<group>"; };
+		CB2D6B9A23210EC100883C38 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		CB2D6B9C23210F7000883C38 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CB2D6B9E2321297400883C38 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CB403DBE22E864BA00187669 /* Curiosity365.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curiosity365.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB403DC122E864BA00187669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB403DC322E864BA00187669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB403DC822E864BB00187669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB403DCB22E864BB00187669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB403DCD22E864BB00187669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB403DD322E8A37F00187669 /* UiViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewGradient.swift; sourceTree = "<group>"; };
+		CB403DD522E8A6B500187669 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CB89CCC62405B50A00A752C0 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CBE9D0352433B6070005A708 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBEEF501231D221C00B5B43B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CBEEF503231FB64200B5B43B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CBF2235423DDCBF10031EAB0 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		F9D6637BB9B325AE58BB28D3 /* Pods-Curiosity365.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Curiosity365.debug.xcconfig"; path = "Target Support Files/Pods-Curiosity365/Pods-Curiosity365.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB403DBB22E864BA00187669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255A3E5144B09B9E9EBF7E2D /* Pods_Curiosity365.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80A7964C75DF6689F413AAEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D6637BB9B325AE58BB28D3 /* Pods-Curiosity365.debug.xcconfig */,
+				B504981DE7F0B236DDD004C7 /* Pods-Curiosity365.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		996A8F08AE06744CE862490D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D1AB2F0828AEFCEE3E6086D /* Pods_Curiosity365.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB268ECF242AAB1C009B3689 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D6B9A23210EC100883C38 /* Start.storyboard */,
+				CB0CBF8023290FE7001E6ECE /* TabBar.storyboard */,
+				CB268EC6242AA63B009B3689 /* Home.storyboard */,
+				CB268EC8242AA7FC009B3689 /* Likes.storyboard */,
+				CB268ECA242AA8BE009B3689 /* Calendario.storyboard */,
+				CB268ECC242AAA5C009B3689 /* Profilo.storyboard */,
+			);
+			name = Storyboards;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB268ED0242AAB6B009B3689 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB403DC322E864BA00187669 /* ViewController.swift */,
+				CB2D6B9C23210F7000883C38 /* SignInViewController.swift */,
+				CB2D6B9E2321297400883C38 /* SignUpViewController.swift */,
+				CBEEF503231FB64200B5B43B /* TabBarController.swift */,
+				CBEEF501231D221C00B5B43B /* HomeViewController.swift */,
+				CB0CBF82232942E8001E6ECE /* LikesViewController.swift */,
+				CB0CBF8423294315001E6ECE /* CalendarioViewController.swift */,
+				CB0CBF8623294330001E6ECE /* ImpostazioniViewController.swift */,
+				CB89CCC62405B50A00A752C0 /* NavigationController.swift */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB403DB522E864BA00187669 = {
+			isa = PBXGroup;
+			children = (
+				CB403DC022E864BA00187669 /* Curiosity365 */,
+				CB403DBF22E864BA00187669 /* Products */,
+				80A7964C75DF6689F413AAEA /* Pods */,
+				996A8F08AE06744CE862490D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB403DBF22E864BA00187669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB403DBE22E864BA00187669 /* Curiosity365.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB403DC022E864BA00187669 /* Curiosity365 */ = {
+			isa = PBXGroup;
+			children = (
+				CB403DCA22E864BB00187669 /* LaunchScreen.storyboard */,
+				CBF2235323DDCBBE0031EAB0 /* Custom Controls */,
+				CB268ECF242AAB1C009B3689 /* Storyboards */,
+				CB268ED0242AAB6B009B3689 /* ViewControllers */,
+				CB403DC122E864BA00187669 /* AppDelegate.swift */,
+				CBE9D0352433B6070005A708 /* GoogleService-Info.plist */,
+				CB403DD522E8A6B500187669 /* Colors.swift */,
+				CB403DC822E864BB00187669 /* Assets.xcassets */,
+				CB403DD322E8A37F00187669 /* UiViewGradient.swift */,
+				CB403DCD22E864BB00187669 /* Info.plist */,
+			);
+			path = Curiosity365;
+			sourceTree = "<group>";
+		};
+		CBF2235323DDCBBE0031EAB0 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2235423DDCBF10031EAB0 /* BounceButton.swift */,
+			);
+			name = "Custom Controls";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB403DBD22E864BA00187669 /* Curiosity365 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB403DD022E864BB00187669 /* Build configuration list for PBXNativeTarget "Curiosity365" */;
+			buildPhases = (
+				414A340957A5E736FD7B4A70 /* [CP] Check Pods Manifest.lock */,
+				CB403DBA22E864BA00187669 /* Sources */,
+				CB403DBB22E864BA00187669 /* Frameworks */,
+				CB403DBC22E864BA00187669 /* Resources */,
+				ED5F35BB3934464381CEF88B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Curiosity365;
+			productName = Curiosity365;
+			productReference = CB403DBE22E864BA00187669 /* Curiosity365.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB403DB622E864BA00187669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Eric Bottinelli";
+				TargetAttributes = {
+					CB403DBD22E864BA00187669 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CB403DB922E864BA00187669 /* Build configuration list for PBXProject "Curiosity365" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB403DB522E864BA00187669;
+			productRefGroup = CB403DBF22E864BA00187669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB403DBD22E864BA00187669 /* Curiosity365 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB403DBC22E864BA00187669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0CBF8123290FE7001E6ECE /* TabBar.storyboard in Resources */,
+				CB268EC9242AA7FC009B3689 /* Likes.storyboard in Resources */,
+				CBE9D0362433B6070005A708 /* GoogleService-Info.plist in Resources */,
+				CB268EC7242AA63B009B3689 /* Home.storyboard in Resources */,
+				CB268ECB242AA8BE009B3689 /* Calendario.storyboard in Resources */,
+				CB268ECD242AAA5C009B3689 /* Profilo.storyboard in Resources */,
+				CB403DCC22E864BB00187669 /* LaunchScreen.storyboard in Resources */,
+				CB403DC922E864BB00187669 /* Assets.xcassets in Resources */,
+				CB2D6B9B23210EC100883C38 /* Start.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		414A340957A5E736FD7B4A70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Curiosity365-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5F35BB3934464381CEF88B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Curiosity365/Pods-Curiosity365-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Curiosity365/Pods-Curiosity365-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Curiosity365/Pods-Curiosity365-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB403DBA22E864BA00187669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0CBF8523294315001E6ECE /* CalendarioViewController.swift in Sources */,
+				CB2D6B9D23210F7000883C38 /* SignInViewController.swift in Sources */,
+				CBEEF502231D221C00B5B43B /* HomeViewController.swift in Sources */,
+				CB2D6B9F2321297400883C38 /* SignUpViewController.swift in Sources */,
+				CB403DD422E8A37F00187669 /* UiViewGradient.swift in Sources */,
+				CBF2235523DDCBF10031EAB0 /* BounceButton.swift in Sources */,
+				CB403DD622E8A6B500187669 /* Colors.swift in Sources */,
+				CB0CBF83232942E8001E6ECE /* LikesViewController.swift in Sources */,
+				CB89CCC72405B50A00A752C0 /* NavigationController.swift in Sources */,
+				CB0CBF8723294330001E6ECE /* ImpostazioniViewController.swift in Sources */,
+				CBEEF504231FB64200B5B43B /* TabBarController.swift in Sources */,
+				CB403DC422E864BA00187669 /* ViewController.swift in Sources */,
+				CB403DC222E864BA00187669 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB403DCA22E864BB00187669 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB403DCB22E864BB00187669 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB403DCE22E864BB00187669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB403DCF22E864BB00187669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB403DD122E864BB00187669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D6637BB9B325AE58BB28D3 /* Pods-Curiosity365.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Curiosity365/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericbottinelli.Curiosity365;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB403DD222E864BB00187669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B504981DE7F0B236DDD004C7 /* Pods-Curiosity365.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Curiosity365/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericbottinelli.Curiosity365;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB403DB922E864BA00187669 /* Build configuration list for PBXProject "Curiosity365" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB403DCE22E864BB00187669 /* Debug */,
+				CB403DCF22E864BB00187669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB403DD022E864BB00187669 /* Build configuration list for PBXNativeTarget "Curiosity365" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB403DD122E864BB00187669 /* Debug */,
+				CB403DD222E864BB00187669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB403DB622E864BA00187669 /* Project object */;
+}
